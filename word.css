@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(26, 172, 172)
+}
+
+.navlogo{
+    background-color: rgb(38, 140, 128, 0.792);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px;
+    z-index: 99;
+}
+
+.logo{
+    max-width: 1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navlogo>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Pp span{
+color:aliceblue;
+font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    margin-right: 1.5rem;
+    cursor:pointer;
+    font-size: 20px;
+    
+}
+
+/* Serviços Mais buscados*/
+
+.tp{
+    background-color: rgb(38, 140, 128, 0.792);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px;
+    z-index: 99;
+}
+
+.top{
+    max-width: 1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.top span{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.tp>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maisbuscados{
+    color: aliceblue;
+}
+
+.inser{
+    color: rgb(235, 231, 8);
+    font-size: 19px;
+}
+h2{
+    text-align: center;
+}
+
+/*alinhamento das ul's de GPS*/
+
+h3 ul{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:4%;
+    
+}
+.p{
+    text-align: center;
+    color: rgb(235, 231, 8);
+}
+
+
+/*Destaques a partir daqui abaixo*/
+
+.dt{
+    background-color: rgb(38, 140, 128, 0.792);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px;
+    z-index: 99;
+}
+
+.dtt{
+    max-width: 1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dtt span{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.dt>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ll{
+    text-decoration: none;
+}
+
+h3 ul li a{
+    text-decoration: none;
+  text-decoration-line: none;
+  color: rgb(0, 0, 0);
+}
+
+
+/*Aqui começa a página 'Promoção'*/
+
+.pr{
+    background-color: rgb(38, 140, 128, 0.792);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px;
+    z-index: 99;    
+}
+
+.prr{
+    max-width: 1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pr>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prr span{
+    color:white;
+    font-size: 25px;
+}
+
+.tt{
+    color:aliceblue
+}
+.promo{
+    position: relative;
+    animation: a26-animation 1s infinite linear;
+
+}
+@keyframes a26-animation{
+    from{
+        left: 38%;
+    }
+    to{
+        left: 38%;
+    }
+}
+.lil{
+    position: relative;
+    animation: a27-animation 1s infinite linear;
+
+}
+@keyframes a27-animation{
+    from{
+        left: 34%;
+    }
+    to{
+        left: 34%;
+    }
+}
+.lal{
+    position: relative;
+    animation: a28-animation 1s infinite linear;
+
+}
+@keyframes a28-animation{
+    from{
+        left: 39%;
+    }
+    to{
+        left: 39%;
+    }
+}
+.lul{
+    position: relative;
+    animation: a29-animation 1s infinite linear;
+
+}
+@keyframes a29-animation{
+    from{
+        left: 39%;
+    }
+    to{
+        left: 39%;
+    }
+}
+.lol{
+    position: relative;
+    animation: a30-animation 1s infinite linear;
+
+}
+@keyframes a30-animation{
+    from{
+        left: 37%;
+    }
+    to{
+        left: 37%;
+    }
+}
+.lel{
+    position: relative;
+    animation: a31-animation 1s infinite linear;
+
+}
+@keyframes a31-animation{
+    from{
+        left: 38%;
+    }
+    to{
+        left: 38%;
+    }
+}
